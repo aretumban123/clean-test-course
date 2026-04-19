@@ -6,7 +6,7 @@ on:
       - lesson-5
 jobs:
   security_test:
-  needs: [deploy]
+    needs: [deploy]
     runs-on: ubuntu-latest
     defaults:
       run:
